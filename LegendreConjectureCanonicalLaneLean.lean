@@ -1,0 +1,7 @@
+-- This module is the root of the LegendreConjectureCanonicalLaneLean Lean proof package.
+import LegendreConjectureCanonicalLaneLean.Basic
+import LegendreConjectureCanonicalLaneLean.SourcePackage
+import LegendreConjectureCanonicalLaneLean.SourceDependencies
+import LegendreConjectureCanonicalLaneLean.Formalization
+import LegendreConjectureCanonicalLaneLean.ReviewerBridge
+import LegendreConjectureCanonicalLaneLean.TheoremStatement
