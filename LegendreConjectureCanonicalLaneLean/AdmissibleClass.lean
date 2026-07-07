@@ -10,7 +10,7 @@ structure AdmissibleClass where
   gateWitness : endpointSatisfied ∨ remainderRecorded
 
 def admittedClosure (A : AdmissibleClass) : Prop :=
-  LegendreWitnessClosed A.object ∧ (A.endpointSatisfied ∨ A.remainderRecorded)
+  LegendrePatternSubstrateClosed A.object ∧ (A.endpointSatisfied ∨ A.remainderRecorded)
 
 end LegendreConjectureCanonicalLaneLean
 end HautevilleHouse
